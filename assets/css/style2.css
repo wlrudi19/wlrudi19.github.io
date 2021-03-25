@@ -1,0 +1,106 @@
+html{
+	scroll-behavior: smooth;
+}
+
+body{
+	background-color: black;
+	color: white;
+}
+
+.slide-img{
+	margin-left: 40px;
+}
+
+.d-block{
+	width: 80%;
+}
+
+.carousel-inner{
+	height: 300px;
+	width: 800px;
+	padding-left: 40px;
+}
+
+.box-shadow{
+	-webkit-box-shadow: -1px 6px 12px -1px rgba(0,0,0,0.75);
+	-moz-box-shadow: -1px 6px 12px -1px rgba(0,0,0,0.75);
+	box-shadow: -1px 6px 12px -1px rgba(0,0,0,0.75);
+}
+
+#home{
+	background: linear-gradient(rgba(52, 58, 64, 1), rgba(0, 0, 0, 1));
+	height: 80vh;
+	padding-top: 100px;
+}
+
+
+/* text */
+
+.home-title{
+	font-size: 30px;
+	color: coral;
+}
+
+.home-subtitle{
+	font-size: 15px;
+	font-weight: lighter;
+}
+
+.home-img{
+	width: 50%;
+}
+
+.btn-round{
+	border-radius: 50%;
+}
+
+/*section 5*/
+#contact{
+	padding-top: 80px;
+	padding-bottom: 80px;
+	background: black;
+}
+
+ul.sosmed{
+	margin-left: -5px; 
+}
+
+ul.sosmed li{
+	display: inline;
+	margin-left: 5px; 
+}
+
+ul.sosmed2{
+	margin-left: -40px; 
+}
+
+ul.sosmed2 li{
+	display: inline;
+	margin-left: 5px; 
+}
+
+/* responsive */
+
+@media (max-width: 991px){
+	.home-img{
+	display: none;
+	}
+
+	.home-title{
+	font-size: 30px;
+	color: coral;
+
+	}
+
+	.carousel-inner{
+	height: 100px;
+	width: 250px;
+	padding-left: 40px;
+	}
+
+	.home-subtitle{
+	font-size: 20px;
+	font-weight: lighter;
+	}
+
+}
